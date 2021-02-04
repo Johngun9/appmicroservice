@@ -13,6 +13,6 @@ public class HomeController {
 
     @GetMapping("/{name}")
     public String getGreetingWithName(@PathVariable String name){
-        return "Hi "+name+" Welcome to Microservice Architecture Application !!!!";
+        return "Hi "+name+" Welcome to Microservice Architecture Applications";
     }
 }
